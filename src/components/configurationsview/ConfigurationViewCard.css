@@ -1,0 +1,35 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+  }
+  
+  .card-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    height: 100%;
+  }
+  
+  .subfolder-card {
+    width: calc(33.33% - 10px);
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .subfolder-text {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

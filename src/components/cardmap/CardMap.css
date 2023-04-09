@@ -1,0 +1,85 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  width: 20%;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  /* margin: 1.5rem; */
+  
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.number-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  background-color: #ddd;
+  color: #666;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  text-align: center;
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+  
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  
+}
+
+.button-primary {
+  padding: 0.5rem 1rem;
+  background-color: #5c8bfa;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: all 0.2s ease-in-out;
+  
+}
+
+.button-primary:hover {
+  background-color: #4c7df2;
+}
+
+.button-secondary {
+  padding: 0.5rem 1rem;
+  background-color: #f5365c;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.button-secondary:hover {
+  background-color: #d32f52;
+}
