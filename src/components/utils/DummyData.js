@@ -1,5 +1,5 @@
 export const DummyData = {
-  Clients: { Contacts: {}, Opportuities: {}, Projects: {} },
+  Clients: { Contacts: {}, Opportuities: {}, Projects: {},},
   Contacts: {},
   Estimation: {},
   Fleets: {},
